@@ -18,19 +18,19 @@ const About = () => {
         <div className={classes.aboutContent}>
           <div className={classes.aboutCards}>
             <article className={classes.aboutCard}>
-              <FaAward />
+              <FaAward className={classes.aboutIcon} />
               <h5>Experience</h5>
               <small>2 Years self Learning</small>
             </article>
 
             <article className={classes.aboutCard}>
-              <FaUniversity />
+              <FaUniversity className={classes.aboutIcon} />
               <h5>Education</h5>
               <small>Bachelor Degree (IT)</small>
             </article>
 
             <article className={classes.aboutCard}>
-              <FaFolderOpen />
+              <FaFolderOpen className={classes.aboutIcon} />
               <h5>Projects</h5>
               <small>18+ Personal Project</small>
             </article>
