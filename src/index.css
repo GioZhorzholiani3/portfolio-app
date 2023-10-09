@@ -81,6 +81,11 @@ a {
   transition: var(--transition);
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 a:hover {
   color: var(--color-white);
 }
