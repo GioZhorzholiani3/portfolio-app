@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./Header.module.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";

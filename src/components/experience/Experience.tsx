@@ -1,6 +1,4 @@
 import classes from "./Experience.module.css";
-import { BsPatchCheckFill } from "react-icons/bs";
-import { SiSass } from "react-icons/si";
 import { SiCsswizardry } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
