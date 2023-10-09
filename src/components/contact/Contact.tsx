@@ -3,31 +3,33 @@ import { HiOutlineMail } from "react-icons/hi";
 import { SiMessenger } from "react-icons/si";
 import { AiFillPhone } from "react-icons/ai";
 
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_vykt3h7",
-        "template_grp8da7",
-        form.current,
-        "ZhgixBcN7eKccU7e8"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_vykt3h7",
+          "template_grp8da7",
+          form.current,
+          "ZhgixBcN7eKccU7e8"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.reset();
+    }
   };
 
   return (
