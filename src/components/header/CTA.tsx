@@ -1,4 +1,4 @@
-import Resume from "../../assets/Resume/Giorgi.Zhorzholiani.Resume.pdf";
+import Resume from "../../assets/Resume/GiorgiZhorzholianiCV.pdf";
 import classes from "./Header.module.css";
 const CTA = () => {
   return (
