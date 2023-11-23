@@ -16,6 +16,8 @@ import reduxCartApp from "../../assets/project-img/redux-cart-app.png";
 import resumeGeneratorApp from "../../assets/project-img/resume-generator-app.png";
 import shoppingCart from "../../assets/project-img/shopping-cart.png";
 import toursApp from "../../assets/project-img/tours-app.png";
+import currencyConverter from "../../assets/project-img/currency-converter-app.png";
+import ytClone from "../../assets/project-img/yt-clone-app.png";
 
 const projectData = [
   {
@@ -62,83 +64,97 @@ const projectData = [
   },
   {
     id: 7,
+    imgSrc: currencyConverter,
+    title: "Currency Converter",
+    githubLink: "https://github.com/GioZhorzholiani3/currency-converter",
+    liveDemoLink: "https://loquacious-elf-9010f2.netlify.app/",
+  },
+  {
+    id: 8,
+    imgSrc: ytClone,
+    title: "YouTube Clone",
+    githubLink: "https://github.com/GioZhorzholiani3/yt-clone",
+    liveDemoLink: "https://fanciful-haupia-264a60.netlify.app/",
+  },
+  {
+    id: 9,
     imgSrc: diceGame,
     title: "Dice Game",
     githubLink: "https://github.com/GioZhorzholiani3/dice-game",
     liveDemoLink: "https://nimble-parfait-8d1a28.netlify.app",
   },
   {
-    id: 8,
+    id: 10,
     imgSrc: shoppingCart,
     title: "Shopping Cart",
     githubLink: "https://github.com/GioZhorzholiani3/shopping-cart",
     liveDemoLink: "https://cozy-khapse-cafcbb.netlify.app",
   },
   {
-    id: 9,
+    id: 11,
     imgSrc: reduxCartApp,
     title: "Redux Cart",
     githubLink: "https://github.com/GioZhorzholiani3/advanced-redux",
     liveDemoLink: "https://calm-unicorn-5fd74d.netlify.app",
   },
   {
-    id: 10,
+    id: 12,
     imgSrc: resumeGeneratorApp,
     title: "CV Generator",
     githubLink: "https://github.com/GioZhorzholiani3/cv-generator",
     liveDemoLink: "https://cv-generator-app-gz.netlify.app",
   },
   {
-    id: 11,
+    id: 13,
     imgSrc: foodOrderApp,
     title: "Food Order App",
     githubLink: "https://github.com/GioZhorzholiani3/food-order-app",
     liveDemoLink: "https://stalwart-sundae-418ed0.netlify.app",
   },
   {
-    id: 12,
+    id: 14,
     imgSrc: realtorApp,
     title: "Realtor App",
     githubLink: "https://github.com/GioZhorzholiani3/House",
     liveDemoLink: "https://curious-maamoul-76890f.netlify.app",
   },
   {
-    id: 13,
+    id: 15,
     imgSrc: hotelApp,
     title: "Hotel App",
     githubLink: "https://github.com/GioZhorzholiani3/Hotel",
     liveDemoLink: "https://clinquant-fudge-115fb2.netlify.app",
   },
   {
-    id: 14,
+    id: 16,
     imgSrc: toursApp,
     title: "Tours App",
     githubLink: "https://github.com/GioZhorzholiani3/Natours",
     liveDemoLink: "https://jade-dolphin-97d7b5.netlify.app",
   },
   {
-    id: 15,
+    id: 17,
     imgSrc: authenticationApp,
     title: "Authentication",
     githubLink: "https://github.com/GioZhorzholiani3/authentication",
     liveDemoLink: "https://glistening-donut-ad420a.netlify.app",
   },
   {
-    id: 16,
+    id: 18,
     imgSrc: goalsApp,
     title: "Goals App",
     githubLink: "https://github.com/GioZhorzholiani3/goals-app",
     liveDemoLink: "https://my-goals-app.netlify.app",
   },
   {
-    id: 17,
+    id: 19,
     imgSrc: expenceApp,
     title: "Expences App",
     githubLink: "https://github.com/GioZhorzholiani3/expenses-app",
     liveDemoLink: "https://incandescent-frangipane-5486bd.netlify.app",
   },
   {
-    id: 18,
+    id: 20,
     imgSrc: portfolioApp,
     title: "Portfolio App",
     githubLink: "https://github.com/GioZhorzholiani3/final",
