@@ -18,6 +18,7 @@ import shoppingCart from "../../assets/project-img/shopping-cart.png";
 import toursApp from "../../assets/project-img/tours-app.png";
 import currencyConverter from "../../assets/project-img/currency-converter-app.png";
 import ytClone from "../../assets/project-img/yt-clone-app.png";
+import mdNote from "../../assets/project-img/md-note-app.png";
 
 const projectData = [
   {
@@ -159,6 +160,13 @@ const projectData = [
     title: "Portfolio App",
     githubLink: "https://github.com/GioZhorzholiani3/final",
     liveDemoLink: "https://stately-puppy-b8ca67.netlify.app",
+  },
+  {
+    id: 21,
+    imgSrc: mdNote,
+    title: "Markdown Note",
+    githubLink: "https://github.com/GioZhorzholiani3/md-note-app",
+    liveDemoLink: "https://ephemeral-pothos-092d7d.netlify.app/",
   },
 ];
 
