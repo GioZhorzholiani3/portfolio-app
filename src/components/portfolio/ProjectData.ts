@@ -109,8 +109,8 @@ const projectData = [
     id: 13,
     imgSrc: foodOrderApp,
     title: "Food Order App",
-    githubLink: "https://github.com/GioZhorzholiani3/food-order-app",
-    liveDemoLink: "https://stalwart-sundae-418ed0.netlify.app",
+    githubLink: "https://github.com/GioZhorzholiani3/food-app",
+    liveDemoLink: "https://clever-zuccutto-c8d879.netlify.app/",
   },
   {
     id: 14,
