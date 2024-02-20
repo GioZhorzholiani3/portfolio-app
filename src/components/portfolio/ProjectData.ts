@@ -19,6 +19,8 @@ import toursApp from "../../assets/project-img/tours-app.png";
 import currencyConverter from "../../assets/project-img/currency-converter-app.png";
 import ytClone from "../../assets/project-img/yt-clone-app.png";
 import mdNote from "../../assets/project-img/md-note-app.png";
+import tbcXusaid from "../../assets/project-img/tbc-x-usaid.png";
+import quizApp from "../../assets/project-img/quiz-app.png";
 
 const projectData = [
   {
@@ -167,6 +169,20 @@ const projectData = [
     title: "Markdown Note",
     githubLink: "https://github.com/GioZhorzholiani3/md-note-app",
     liveDemoLink: "https://ephemeral-pothos-092d7d.netlify.app/",
+  },
+  {
+    id: 22,
+    imgSrc: quizApp,
+    title: "Quiz App",
+    githubLink: "https://github.com/GioZhorzholiani3/quiz-app",
+    liveDemoLink: "https://willowy-sprinkles-38b38f.netlify.app/",
+  },
+  {
+    id: 23,
+    imgSrc: tbcXusaid,
+    title: "TBC X USAID",
+    githubLink: "https://github.com/GioZhorzholiani3/tbc-x-usaid",
+    liveDemoLink: "https://clinquant-crumble-adffb7.netlify.app/",
   },
 ];
 
